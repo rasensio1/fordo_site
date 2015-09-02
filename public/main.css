@@ -4,6 +4,10 @@ h1, h2, h3, p {
   font-family: 'Neucha', cursive;
 }
 
+body {
+  background-color: #67ABB8
+}
+
 /* HEADER ==========================
  */
 
