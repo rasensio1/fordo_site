@@ -29,6 +29,11 @@ body {
   color: white;
 }
 
+.promise {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+}
+
 .help {
   font-size: 4em;
   color: black;
@@ -36,12 +41,21 @@ body {
 
 .main-link {
   font-size: 2em;
+  letter-spacing: 0.1em;
 }
 
 .btn, btn-primary {
   background-color: transparent;
   border-width: 2px;
+  border-color: white;
   border-radius: 23px;
 }
 
+.spacer1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.spacer2 {
+  padding-top: 20px;
+}
