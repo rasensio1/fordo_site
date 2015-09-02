@@ -7,18 +7,42 @@
   </head>
 
   <body>
-      <%= erb :navbar %>
+    <%= erb :navbar %>
     <div class = 'container'>
-      <p>We believe that technology should never get in the way.</p>
-      <h2>Let us help!</h2>
+      <div class = 'row spacer'>
+      </div>
+      <div class = 'row'>
+        <div class = 'col-md-9 pull-right text-center'>
+          <p class = 'tagline'>We believe that technology should never get in the way.</p>
+        </div>
+      </div>
 
-      <h2>
-        <a href = '/repair/'>Repair</a>
-        <a href = '/training'>Training</a>
-      </h2>
-      <h3>(Mac &amp PC)</h3>
+      <div class = 'row'>
+        <div class = 'col-md-9 pull-right text-center'>
+          <h2 class = 'help'>Let us help!</h2>
+        </div>
+      </div>
 
-      <h3>Pick a Time, pick a Place. We'll be there.</h3>
+      <div class = 'row'>
+        <div class = 'col-md-9 pull-right text-center'>
+          <h3>
+              <a class = 'main-link btn btn-primary' href = '/repair/'>Repair</a>
+              <a class = 'main-link btn btn-primary' href = '/training'>Training</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class = 'row'>
+        <div class = 'col-md-9 pull-right text-center'>
+          <h3>(Mac &amp PC)</h3>
+        </div>
+      </div>
+
+      <div class = 'row'>
+        <div class = 'col-md-9 pull-right text-center'>
+          <h3 class = 'promise'>Pick a Time, pick a Place. We'll be there.</h3>
+        </div>
+      </div>
     </div>
   </body>
 

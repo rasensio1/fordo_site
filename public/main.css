@@ -14,3 +14,34 @@ body {
 .denver, .home, .contact {
   float: right;
  } 
+
+.denver {
+}
+ 
+ /* body of front page ===============
+  */
+.spacer {
+  margin-top: 100px;
+}
+
+.tagline {
+  font-size: 3em;
+  color: white;
+}
+
+.help {
+  font-size: 4em;
+  color: black;
+}
+
+.main-link {
+  font-size: 2em;
+}
+
+.btn, btn-primary {
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 23px;
+}
+
+
