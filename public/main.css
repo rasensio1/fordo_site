@@ -1,7 +1,18 @@
+/* LAYOUT ========================
+ */
+.spacer {
+  margin-top: 100px;
+}
+
+.small-spacer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* GENERAL STYLING ================
  */
 h1, h2, h3, p {
-  font-family: 'Neucha', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -33,12 +44,27 @@ body {
   color: white;
 }
 
- 
- /* body of front page ===============
-  */
-.spacer {
-  margin-top: 100px;
+
+/* Specific Styling ================
+ */
+.name {
+  font-size: 5em;
+  color: #EEE;
+  letter-spacing: 0.2em;
 }
 
+.cheese {
+  font-size: 1.5em;
+}
 
-
+.prof {
+  color: #EEE;
+  text-align: center;
+}
+.service {
+  color: white;
+}
+.well {
+  padding-top: 8px;
+  padding-bottom: 3px;
+}
