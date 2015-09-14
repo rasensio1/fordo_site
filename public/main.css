@@ -1,5 +1,9 @@
 /* LAYOUT ========================
  */
+.top-spacer {
+  margin-top: 200px;
+}
+
 .spacer {
   margin-top: 100px;
 }
@@ -7,6 +11,10 @@
 .small-spacer {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.services {
+  margin-bottom: 50px;
 }
 
 /* GENERAL STYLING ================
@@ -68,3 +76,4 @@ body {
   padding-top: 8px;
   padding-bottom: 3px;
 }
+
